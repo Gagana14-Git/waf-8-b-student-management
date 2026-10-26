@@ -17,7 +17,7 @@ def home():
             })
 
     return render_template_string("""
-    <h2>Student Information Management System</h2>
+    <h2>Student Information Management System - Updated</h2>
 
     <form method="POST">
         Student Name: <input name="name" required><br><br>
